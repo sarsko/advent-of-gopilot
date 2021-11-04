@@ -5,6 +5,7 @@ import (
 	"strings"
 )
 
+// Read the file 'input.txt'
 func read_input() string {
 	input, err := ioutil.ReadFile("input.txt")
 	if err != nil {
@@ -24,7 +25,6 @@ func main() {
 
 // Part 1
 func part1(input string) {
-
 	// split the input into an array of strings
 	input_array := strings.Split(input, "\n")
 	// iterate over the array
