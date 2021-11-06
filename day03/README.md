@@ -1,4 +1,4 @@
-## Day 2
+## Day 3
 
 Not Copilot's best showing. It really did not want to parse the input into ints. Part two was a lot faster, though not exactly clean code.
 
